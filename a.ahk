@@ -85,7 +85,7 @@ runAndAvtivate(appName, appPath){
     DetectHiddenWindows, on
 
     Run, %appName%, %appPath%
-    activeWindowName = ""   
+    activeWindowName = ""
     While (activeWindowName != appName){
         WinActivate, ahk_exe %appName%
         WinGet, activeWindowName, ProcessName, A
