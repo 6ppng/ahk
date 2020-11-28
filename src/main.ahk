@@ -64,7 +64,7 @@ Exit, 0
 }
 Exit, 0
 
-#v::
+#c::
 {
     appName = vivaldi.exe
     appPath = C:\Users\r0pp0\AppData\Local\Vivaldi\Application
