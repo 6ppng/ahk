@@ -66,8 +66,8 @@ Exit, 0
 
 #c::
 {
-    appName = vivaldi.exe
-    appPath = C:\Users\r0pp0\AppData\Local\Vivaldi\Application
+    appName = chrome.exe
+    appPath = C:\Program Files (x86)\Google\Chrome\Application
     runAndAvtivate(appName, appPath)
 }
 Exit, 0
