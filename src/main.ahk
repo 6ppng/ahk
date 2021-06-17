@@ -67,7 +67,7 @@ Exit, 0
 #c::
 {
     appName = chrome.exe
-    appPath = C:\Program Files (x86)\Google\Chrome\Application
+    appPath = %USERPROFILE%\scoop\apps\googlechrome-portable\current
     runAndAvtivate(appName, appPath)
 }
 Exit, 0
@@ -75,7 +75,7 @@ Exit, 0
 #e::
 {
     appName = TE64.exe
-    appPath = C:\Program Files\Tablacus Explorer\te200612
+    appPath = %USERPROFILE%\scoop\apps\tablacus-explorer\current
     runAndAvtivate(appName, appPath)
 }
 Exit, 0
