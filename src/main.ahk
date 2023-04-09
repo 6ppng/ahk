@@ -66,8 +66,8 @@ Exit, 0
 
 #c::
 {
-    appName = chrome.exe
-    appPath = %USERPROFILE%\scoop\apps\googlechrome-portable\current
+    appName = msedge.exe
+    appPath = \Program Files (x86)\Microsoft\Edge\Application
     runAndAvtivate(appName, appPath)
 }
 Exit, 0
